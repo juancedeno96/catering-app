@@ -1,23 +1,39 @@
 import React from "react";
-import '../styles/_navbar.scss'
+import "../styles/_navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="NavBar">
       <nav className="nav">
-          <button className="schedule-button">
-            <a 
-              href="https://juliescateringservice.appointlet.com/s/catering-service" target="_blank" rel='noreferrer'>
-              Hire for Event
-            </a>
-          </button>
-          <a href="https://www.instagram.com/lajamadjulieta/" target="_blank" rel='noreferrer'>
+        <a className='hire-link'
+          href="https://juliescateringservice.appointlet.com/s/catering-service"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="schedule-button"> Hire for Event </button>
+        </a>
+
+        <a
+          href="https://www.instagram.com/lajamadjulieta/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faInstagram} className="icon_ig" />
-          </a>
+        </a>
       </nav>
+      <div className="lower-nav">
+                <span className="company-name"><NavLink to='/' className='link'>La Jama De Julieta</NavLink></span>
+                <div className="nav-links">
+                <span><NavLink to='/' className='link'>Home</NavLink></span>
+                <span>Services</span>
+                <span>About</span>
+                <span>Contact</span>
+                </div>
+                
+            </div>
     </div>
   );
 };
