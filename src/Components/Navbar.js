@@ -28,9 +28,9 @@ const Navbar = () => {
                 <span className="company-name"><NavLink to='/' className='link'>La Jama De Julieta</NavLink></span>
                 <div className="nav-links">
                 <span><NavLink to='/' className='link'>Home</NavLink></span>
-                <span>Services</span>
-                <span>About</span>
-                <span>Contact</span>
+                <span><NavLink to='/services' className='link'>Services</NavLink></span>
+                <span><NavLink to='/about' className='link'>About</NavLink></span>
+                <span><NavLink to='/contact' className='link'>Contact</NavLink></span>
                 </div>
                 
             </div>
