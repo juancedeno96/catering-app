@@ -1,0 +1,19 @@
+.Services {
+  height: 80vh;
+  width: 100vw;
+  position: fixed;
+  scroll-behavior: auto;
+  top: 10rem;
+  .service_description {
+      width: 50%;
+      height: 100%;
+      border-style: solid;
+      position: relative;
+      left: 25%;
+      img{
+          width: 100%;
+          height: 50%;
+
+      }
+  }
+}
