@@ -1,0 +1,120 @@
+body {
+ /* <!-- src: https://subtlepatterns.com/?p=1045 --> */
+ /* background: url('dark_geometric.png'); */
+}
+ 
+#container {
+ width: 100%;
+ overflow: hidden;
+ margin: 50px auto;
+ background: transparent;
+}
+/*header*/
+header {
+	width: 800px;
+	margin: 40px auto;
+}
+
+header h1 {
+	text-align: center;
+	font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+	
+}
+
+header p {
+	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	text-align: justify;
+}
+
+/*photobanner*/
+
+.photobanner {
+	height: 220px;
+	width: 8640px;
+	margin-bottom: 80px;
+}
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 50s linear infinite;
+	   -moz-animation: bannermove 50s linear infinite;
+	    -ms-animation: bannermove 50s linear infinite;
+	     -o-animation: bannermove 50s linear infinite;
+	        animation: bannermove 50s linear infinite;
+}
+
+
+@keyframes bannermove {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -5746px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -5746px;
+ }
+
+}
+
+@-webkit-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -5746px;
+ }
+
+}
+
+@-ms-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -5746px;
+ }
+
+}
+
+@-o-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -5746px;
+ }
+
+}
+.photobanner {
+	height: 242px;
+	width: 8640px;
+	margin-bottom: 80px;
+}
+
+.photobanner img {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
