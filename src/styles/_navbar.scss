@@ -1,9 +1,10 @@
 .NavBar {
-
+position: sticky;
+z-index: 20;
   width: 100vw;
   height: 10vh;
-  background-color: #88191fe1;
-  position: fixed;
+  background-color: #88191f;
+  
   top: 0%;
   .nav {
     border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
@@ -46,6 +47,7 @@
     align-items: center;
     justify-content: space-between;
     height: 4rem;
+    background-color: #f1edda;
     border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
     .company-name {
       position: relative;
