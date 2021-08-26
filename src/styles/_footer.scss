@@ -1,7 +1,19 @@
 .Footer{
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     bottom: 0%;
     width: 100%;
     height: 20vh;
-    border-style: solid;
+    background-color: rgb(39, 36, 36);
+    a {
+        position: relative;
+        right: 2%;
+        top: 25%;
+        .icon_ig {
+          font-size: 2rem;
+          color: #f1edda;
+        }
+      }
 }
