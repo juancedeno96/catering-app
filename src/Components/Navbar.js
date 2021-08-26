@@ -3,6 +3,7 @@ import "../styles/_navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { NavLink } from "react-router-dom";
+import logo from '../images/jdj-logo.jpeg'
 
 const Navbar = () => {
   return (
@@ -25,7 +26,9 @@ const Navbar = () => {
         </a>
       </nav>
       <div className="lower-nav">
-                <span className="company-name"><NavLink to='/' className='link'>La Jama De Julieta</NavLink></span>
+                <span className="company-name"><NavLink to='/' className='link'>
+                  <img src={logo} alt='jama d`julieta'/>
+                  La Jama d'Julieta</NavLink></span>
                 <div className="nav-links">
                 <span><NavLink to='/' className='link'>Home</NavLink></span>
                 <span><NavLink to='/services' className='link'>Services</NavLink></span>
