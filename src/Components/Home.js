@@ -90,16 +90,26 @@ const Home = () => {
       </div>
       <div className="home-description">
         <h1 className="about-title">La Jama d'Julieta</h1>
+        <div className='about-text'>
         <p>
+        Prepare for Pokem! Make it Ipsum! To protect the world from
+          devastation! To unite all peoples within our nation! To denounce the
+          evils of truth and love! To extend our reach to the stars above!
+          Pokem! Ipsum! Pokem Ipsum, blast off at the speed of light! Surrender
+          now or prepare to fight! Pokem Ipsum! That's right!
+       
           Prepare for Pokem! Make it Ipsum! To protect the world from
           devastation! To unite all peoples within our nation! To denounce the
           evils of truth and love! To extend our reach to the stars above!
           Pokem! Ipsum! Pokem Ipsum, blast off at the speed of light! Surrender
           now or prepare to fight! Pokem Ipsum! That's right!
+         
         </p>
+     
+        </div>
 
         <button>
-          <NavLink to="/about">About</NavLink>
+          <NavLink className="about-link" to="/about">About</NavLink>
         </button>
 
       </div>
@@ -116,7 +126,7 @@ const Home = () => {
 
       </div>
       <div className="home-choose">
-      <h1 className="choose-title">Services</h1>
+      <h1 className="choose-title">Why Choose Us? </h1>
       <p>
           Prepare for Pokem! Make it Ipsum! To protect the world from
           devastation! To unite all peoples within our nation! To denounce the
