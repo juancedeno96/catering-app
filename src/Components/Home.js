@@ -116,6 +116,7 @@ const Home = () => {
 
       <div className="home-services">
       <h1 className="service-title">Services</h1>
+      <div className="service-text">
       <p>
           Prepare for Pokem! Make it Ipsum! To protect the world from
           devastation! To unite all peoples within our nation! To denounce the
@@ -125,6 +126,11 @@ const Home = () => {
         </p>
 
       </div>
+      <button>
+          <NavLink className="service-link" to="/services">Services</NavLink>
+        </button>
+      </div>
+
       <div className="home-choose">
       <h1 className="choose-title">Why Choose Us? </h1>
       <p>
