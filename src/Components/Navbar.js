@@ -26,8 +26,9 @@ const Navbar = () => {
         </a>
       </nav>
       <div className="lower-nav">
+      <img src={logo} alt='jama d`julieta'/>
                 <span className="company-name"><NavLink to='/' className='link'>
-                  <img src={logo} alt='jama d`julieta'/>
+                  
                   La Jama d'Julieta</NavLink></span>
                 <div className="nav-links">
                 <span><NavLink to='/' className='link'>Home</NavLink></span>
