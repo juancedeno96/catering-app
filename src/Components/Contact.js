@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import catering1 from '../images/catering1.jpg'
 import '../styles/_contact.scss'
 
 const Contact = () => {
@@ -23,10 +24,12 @@ const Contact = () => {
             .catch(err => console.log(err))
         }
         return(
-        
+          
             <main className='contact-main'>
-              
                
+              <img src={catering1} alt="" />
+      <h1 className="contact_title">Contact Us</h1>
+
                 {!messageSent
                     ? (
                         <form className='contact-form'>
@@ -45,7 +48,7 @@ const Contact = () => {
                             
                             <input value={email} placeholder='Email *' required onChange={e => setEmail(e.target.value)}/>
                             <input value={subject} placeholder='Subject' required onChange={e => setSubject(e.target.value)}/>
-                            <label className= 'message'>Message:</label> <br/>
+                           <br/>
                             <textarea value={message} placeholder='Write a message here' required autoComplete = 'off' onChange={e => setMessage(e.target.value)}/> <br/>
                             <button className= 'submit-button' onClick={sendMessage}>Submit</button>
                         </form>
@@ -58,7 +61,6 @@ const Contact = () => {
                     )}
             </main>
         )
-    
 }
 
 export default Contact
