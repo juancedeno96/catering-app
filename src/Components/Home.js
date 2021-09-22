@@ -115,7 +115,14 @@ const Home = () => {
       </div>
 
       <div className="mid-section">
-        
+        <h2>Same-Week Availability. Real-time online booking. Variety of meal options. </h2>
+        <a className='hire-link'
+          href="https://juliescateringservice.appointlet.com/s/catering-service"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="schedule-button"> Hire for Event </button>
+        </a>
       </div>
 
       <div className="home-services">
