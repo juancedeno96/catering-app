@@ -114,6 +114,10 @@ const Home = () => {
 
       </div>
 
+      <div className="mid-section">
+        
+      </div>
+
       <div className="home-services">
       <h1 className="service-title">Services</h1>
       <div className="service-text">
