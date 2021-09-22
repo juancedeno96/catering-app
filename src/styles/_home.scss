@@ -151,10 +151,47 @@ header p {
     }
   }
 }
-.mid-section{
+.mid-section {
   height: 15rem;
   width: 100%;
   background-color: #88191f;
+  .hire-link {
+    width: 15rem;
+    height: 2rem;
+    position: relative;
+    top: 25%;
+    right: 35%;
+    :hover {
+      background-color: #f1edda;
+      color: black;
+    }
+    button {
+      background-color: rgba(255, 255, 255, 0);
+      color: #f1edda;
+      font-size: 16px;
+      border-style: solid 0.3px;
+      border-color: #f1edda;
+      text-decoration: none;
+      width: 20%;
+      height: 15%;
+    }
+  }
+  a {
+    position: relative;
+    right: 2.5%;
+    .icon_ig {
+      font-size: 3rem;
+      color: #f1edda;
+    }
+  }
+
+  h2 {
+    color: white;
+    position: relative;
+    top: 20%;
+    right: 20%;
+  }
+
 }
 //Services Div
 .home-services {
