@@ -2,7 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/_home.scss";
 import verde from "../images/verde-bowls.jpg"
-
+import ServiceBlock from "./ServiceBlock";
+import allServices from '../Components/allServices'
+import catering2 from '../images/catering-2resized.jpeg'
 const Home = () => {
   return (
     <div id="container">
@@ -16,7 +18,7 @@ const Home = () => {
           alt="placeholder"
         />
         <img
-          src={verde}
+          src={catering2}
           alt="placeholder"
         />
 
@@ -127,15 +129,8 @@ const Home = () => {
 
       <div className="home-services">
       <h1 className="service-title">Services</h1>
-      <div className="service-text">
-      <p>
-          Prepare for Pokem! Make it Ipsum! To protect the world from
-          devastation! To unite all peoples within our nation! To denounce the
-          evils of truth and love! To extend our reach to the stars above!
-          Pokem! Ipsum! Pokem Ipsum, blast off at the speed of light! Surrender
-          now or prepare to fight! Pokem Ipsum! That's right!
-        </p>
-
+      <div className="service-row">
+      <ServiceBlock icon={allServices.image} name={allServices.title}/>
       </div>
       <button>
           <NavLink className="service-link" to="/services">Services</NavLink>
