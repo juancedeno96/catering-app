@@ -94,17 +94,8 @@ const Home = () => {
         <h1 className="about-title">La Jama d'Julieta</h1>
         <div className='about-text'>
         <p>
-        Prepare for Pokem! Make it Ipsum! To protect the world from
-          devastation! To unite all peoples within our nation! To denounce the
-          evils of truth and love! To extend our reach to the stars above!
-          Pokem! Ipsum! Pokem Ipsum, blast off at the speed of light! Surrender
-          now or prepare to fight! Pokem Ipsum! That's right!
-       
-          Prepare for Pokem! Make it Ipsum! To protect the world from
-          devastation! To unite all peoples within our nation! To denounce the
-          evils of truth and love! To extend our reach to the stars above!
-          Pokem! Ipsum! Pokem Ipsum, blast off at the speed of light! Surrender
-          now or prepare to fight! Pokem Ipsum! That's right!
+        La Jama d'Julieta is a catering service located in Spanish Fork, UT. We specialize in serving a variety of foods at events such as Weddings, Birthday Parties, Quinceñeras, Company Events, etc. Our goal is to provide you with the best quality dishes and with lots of options to choose from. We will ensure your catering needs are met!
+
          
         </p>
      
