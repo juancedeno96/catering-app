@@ -191,7 +191,6 @@ header p {
     top: 20%;
     right: 20%;
   }
-
 }
 //Services Div
 .home-services {
@@ -207,10 +206,7 @@ header p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    border-style: solid;
-    height: 10rem;
-    
+    height: 16rem;
   }
   button {
     position: relative;
@@ -229,17 +225,14 @@ header p {
   }
 }
 
-
-.service-block{
-  
-
-  width: 8rem;
-  height: 6rem;
-  border-style: solid;
-  border-color: red;
-  img{
-    width: 4rem;
-    height: 2rem;
+.service-block {
+  width: 16rem;
+  height: 10rem;
+  img {
+    width: 16rem;
+    height: 10rem;
   }
- 
+  .title {
+    font-size: 24px;
+  }
 }
