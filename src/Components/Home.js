@@ -127,7 +127,7 @@ const Home = () => {
            <div className="service-block" key={item.id}>
             <div className="image-data">
               <img src={item.image}/>
-              {item.name}
+              <span className="title">{item.title}</span>
 </div>
            </div>
          )
