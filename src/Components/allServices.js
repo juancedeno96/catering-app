@@ -6,6 +6,12 @@ const allServices = [
         image: catering2,
         title: 'Example',
 
+    },
+    {
+        id:2,
+        image: catering2,
+        title: 'Example2',
+
     }
 ]
 
