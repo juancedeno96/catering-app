@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/_home.scss";
 import verde from "../images/verde-bowls.jpg"
 import ServiceBlock from "./ServiceBlock";
-import allServices from '../Components/allServices'
+import allServices from '../Components/allServices';
 import catering2 from '../images/catering-2resized.jpeg'
 const Home = () => {
   return (
@@ -121,7 +121,18 @@ const Home = () => {
       <div className="home-services">
       <h1 className="service-title">Services</h1>
       <div className="service-row">
-      <ServiceBlock icon={allServices.image} name={allServices.title}/>
+     {
+       allServices.map((item)=>{
+         return(
+           <div className="service-block" key={item.id}>
+            <div className="image-data">
+              <img src={item.image}/>
+              {item.name}
+</div>
+           </div>
+         )
+       })
+     }
       </div>
       <button>
           <NavLink className="service-link" to="/services">Services</NavLink>
