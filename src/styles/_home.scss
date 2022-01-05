@@ -86,11 +86,13 @@ header p {
 }
 .photobanner {
   height: 242px;
-  width: 8640px;
+  width: 9000px;
   margin-bottom: 80px;
 }
 
 .photobanner img {
+  height: 242px;
+  width: 864px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
