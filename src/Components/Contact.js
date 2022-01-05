@@ -35,19 +35,19 @@ const Contact = () => {
                         <form className='contact-form'>
                               <h2>Questions/Special Requests? Shoot us an email</h2>
                                 <section className='name-input'>
-                                    <span></span>
+                                    
                                     <input value={firstName} placeholder='First Name *'
                                      required onChange={e => setFirstName(e.target.value)}/>
-                                </section>
-                                <section className='name-input'>
+                            
                                    
                                     <input value={lastName}
                                     placeholder = 'Last Name *' 
                                     required onChange={e => setLastName(e.target.value)}/>
+                                      <input value={email} placeholder='Email *' required onChange={e => setEmail(e.target.value)}/>
+                            <input value={subject} placeholder='Subject' required onChange={e => setSubject(e.target.value)}/>
                                 </section>
                             
-                            <input value={email} placeholder='Email *' required onChange={e => setEmail(e.target.value)}/>
-                            <input value={subject} placeholder='Subject' required onChange={e => setSubject(e.target.value)}/>
+                           
                            <br/>
                             <textarea value={message} placeholder='Write a message here' required autoComplete = 'off' onChange={e => setMessage(e.target.value)}/> <br/>
                             <button className= 'submit-button' onClick={sendMessage}>Submit</button>
