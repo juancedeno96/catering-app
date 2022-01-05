@@ -1,10 +1,26 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/_home.scss";
-import verde from "../images/verde-bowls.jpg"
-import ServiceBlock from "./ServiceBlock";
-import allServices from '../Components/allServices';
+//Imported images *****************************************//
+import catering1 from '../images/catering1.jpg';
 import catering2 from '../images/catering-2resized.jpeg'
+import catering3 from '../images/Catering3.jpg';
+import catering4 from '../images/catering4.jpg';
+import catering5 from '../images/catering5.jpg';
+import catering6 from '../images/catering6.jpg';
+import catering7 from '../images/catering7.jpeg';
+import catering8 from '../images/catering8.jpg';
+import catering9 from '../images/catering9.jpg';
+import catering10 from '../images/catering10.jpeg';
+import catering11 from '../images/catering11.jpg';
+import catering12 from '../images/catering12.jpg';
+import catering13 from '../images/catering13.jpeg';
+import catering14 from '../images/catering14.jpg';
+import catering15 from '../images/catering15.jpg';
+import catering16 from '../images/catering16.jpg';
+
+// ********************************************************//
+import allServices from '../Components/allServices';
 const Home = () => {
   return (
     <div id="container">
@@ -14,7 +30,7 @@ const Home = () => {
       <div class="photobanner">
         <img
           class="first"
-          src={verde}
+          src={catering3}
           alt="placeholder"
         />
         <img
@@ -23,70 +39,70 @@ const Home = () => {
         />
 
         <img
-          src={verde}
+          src={catering4}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering5}
           alt="placeholder"
         />
 
         <img
-          src="https://c2.staticflickr.com/9/8210/28951305801_bfe7c0b346_z.jpg"
+          src={catering1}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering6}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering7}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering8}
           alt="placeholder"
         />
         <img
-          src={verde}
+          src={catering9}
           alt="placeholder"
         />
         <img
-          src={verde}
-          alt="placeholder"
-        />
-
-        <img
-          src={verde}
+          src={catering10}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering11}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering12}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering13}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering14}
           alt="placeholder"
         />
 
         <img
-          src={verde}
+          src={catering15}
+          alt="placeholder"
+        />
+
+        <img
+          src={catering16}
           alt="placeholder"
         />
       </div>
