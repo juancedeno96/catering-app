@@ -19,7 +19,7 @@ const allServices = [
     {
         id:3,
         image: workParty,
-        title: 'Work',
+        title: 'Company Events',
 
     },
     {
