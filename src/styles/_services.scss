@@ -10,7 +10,7 @@
     height: 40%;
     object-fit: cover;
   }
-  .service_title {  
+  .service_title {
     color: #f1edda;
     position: relative;
     display: flex;
@@ -29,5 +29,27 @@
     position: relative;
     bottom: 15%;
     left: 15%;
+  }
+  @media screen and (max-width: 1024px) {
+  height: 150vh;
+
+    img {
+      height: 20%;
+    }
+
+    .service_title {
+      width: 30%;
+      height: 8%;
+      font-size: 30px;
+      bottom: 8%;
+    }
+    .service_description{
+      width: 80%;
+      font-size: 28px;
+      height: 400px;
+      position: relative;
+      bottom: 8%;
+      left: 10%;
+    }
   }
 }
