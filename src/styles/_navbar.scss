@@ -5,6 +5,13 @@
   height: 10vh;
   background-color: #88191f;
   top: 0%;
+  .dropdown-btn {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+
   /////////////////////////////////////////////////////////////////////////
 
   .nav {
@@ -115,6 +122,22 @@
     @media screen and (max-width: 1024px) {
       .nav-links {
         display: none;
+      }
+
+      .dropdown-btn {
+        display: initial;
+        position: relative;
+        right: 2rem;
+      }
+      .mobile-menu{
+        display: initial;
+        width: 200px;
+        height: 350px;
+        border-style: solid;
+        position: fixed;
+        right: 0%;
+        top: 15%;
+        background-color: black;
       }
     }
   }
