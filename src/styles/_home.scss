@@ -123,6 +123,9 @@ header p {
     font-size: 40px;
     position: relative;
     right: 25%;
+    @media screen and (max-width: 1024px) {
+      font-size: 45px;
+    }
   }
   .about-text {
     width: 80%;
@@ -136,6 +139,12 @@ header p {
     justify-content: flex-start;
     text-align: left;
     line-height: 1.75rem;
+    @media screen and (max-width: 1024px) {
+      bottom: 5%;
+      font-size: 24px;
+      width: 90%;
+      left: 8%;
+    }
   }
   button {
     position: relative;
@@ -150,6 +159,11 @@ header p {
     .about-link {
       text-decoration: none;
       color: #f1edda;
+    }
+    @media screen and (max-width: 1024px) {
+      width: 7rem;
+      height: 4rem;
+      font-size: 24px;
     }
   }
 }
@@ -192,6 +206,23 @@ header p {
     position: relative;
     top: 20%;
     right: 20%;
+  }
+  @media screen and (max-width: 1024px) {
+    h2 {
+      right: 0%;
+      font-size: 27px;
+    }
+    .hire-link {
+      button {
+        width: 32%;
+        height: 20%;
+        font-size: 24px;
+      }
+     
+    }
+    a{
+      left:   0%;
+    }
   }
 }
 //Services Div
