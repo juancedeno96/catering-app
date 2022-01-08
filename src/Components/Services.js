@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/_services.scss";
-import catering1 from '../images/catering1.jpg'
+import catering8 from '../images/catering8.jpg'
 
 const Services = () => {
   return (
     <div className="Services">
-       <img src={catering1} alt = "dishes being displayed "/>
+       <img src={catering8} alt = "dishes being displayed "/>
       <h1 className="service_title">Need catering for an event?</h1>
       <div className="service_description">
        <p>
