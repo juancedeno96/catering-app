@@ -1,12 +1,12 @@
 import React from 'react'
-import catering1 from '../images/catering1.jpg'
+import catering9 from '../images/catering9.jpg'
 import "../styles/_about.scss";
 
 
 const About = () => {
     return (
         <div className="About">
-             <img src={catering1} alt = "dishes being displayed "/>
+             <img src={catering9} alt = "dishes being displayed "/>
              <h1 className="about_title">About Us!</h1>
              <div className="about_description">
              <p>
