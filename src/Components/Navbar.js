@@ -48,7 +48,12 @@ const Navbar = () => {
                 <span className="dropdown-btn"  onClick={toggleDropdown}><img src={menu} alt='menu button'/></span>
                 {dropView ? (
         <nav className='mobile-menu'>
-        Hello
+         <div className="mobile-nav-links">
+                <NavLink to='/' className='link'>Home</NavLink>
+                <NavLink to='/services' className='link'>Services</NavLink>
+                <NavLink to='/about' className='link'>About</NavLink>
+                <NavLink to='/contact' className='link'>Contact</NavLink>
+                </div>
         </nav>
         
          ): null }
