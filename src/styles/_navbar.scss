@@ -95,11 +95,10 @@
       height: 40px;
       width: 40px;
       left: 2rem;
-    @media screen and (max-width: 1024px) {
-      height: 55px;
-      width: 55px;
-    }
-
+      @media screen and (max-width: 1024px) {
+        height: 55px;
+        width: 55px;
+      }
     }
     .company-name {
       position: relative;
@@ -111,12 +110,10 @@
         position: relative;
         right: 350px;
       }
-    @media screen and (max-width: 1024px) {
-    
-      left: 45%;
-      font-size: 35px;
-    }
-
+      @media screen and (max-width: 1024px) {
+        left: 45%;
+        font-size: 35px;
+      }
     }
     .nav-links {
       text-decoration: none;
@@ -133,22 +130,20 @@
     @media screen and (max-width: 1024px) {
       .nav-links {
         display: none;
-
-
       }
 
       .dropdown-btn {
         display: initial;
         position: relative;
-        right: 2rem;
+        right: 3rem;
       }
-      .mobile-menu{
+      .mobile-menu {
         display: initial;
         width: 200px;
         height: 350px;
         border-style: solid;
         position: fixed;
-        right: 0%;
+        right: 10%;
         top: 15%;
         background-color: black;
       }
