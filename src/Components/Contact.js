@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import axios from 'axios'
-import catering1 from '../images/catering1.jpg'
+import catering12 from '../images/catering12.jpg'
 import '../styles/_contact.scss'
 
 const Contact = () => {
@@ -27,7 +27,7 @@ const Contact = () => {
           
             <main className='contact-main'>
                
-              <img src={catering1} alt="" />
+              <img src={catering12} alt="" />
       <h1 className="contact_title">Contact Us</h1>
 
                 {!messageSent
